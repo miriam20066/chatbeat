@@ -1,0 +1,32 @@
+@media (max-width: 768px) {
+    body {
+        background-color: #6959CD;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    h1 {
+        font-family: 'Alfa Slab One', cursive;
+        color: white;
+    }
+
+    .beat {
+        margin-left: 20px; /* Ajustei o espaçamento para celular */
+    }
+
+    .chat h1, .beat h1 {
+        margin: 0;
+    }
+
+    img {
+        transform: rotate(10deg);
+        margin: 0;
+    }
+
+    a {
+        text-decoration: none;
+        cursor: pointer;
+    }
+}

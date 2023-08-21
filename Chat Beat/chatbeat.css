@@ -1,0 +1,186 @@
+@media (max-width: 768px) {
+    body {
+        background-color: #6959CD;
+        margin: 0;
+        /* Remova margens padrão do body */
+    }
+
+    h1 {
+        font-family: 'Alfa Slab One', cursive;
+        color: white;
+        font-size: 16px;
+        margin: 10px 0;
+        /* Adicione margem superior e inferior */
+    }
+
+    a {
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .beat {
+        margin-left: 60px;
+    }
+
+    .chat h1,
+    .beat h1 {
+        margin: 0;
+    }
+
+    .fone img {
+        transform: rotate(10deg);
+        margin: 0;
+        width: 50px;
+        height: 50px;
+        margin-left: 20px;
+    }
+
+    .fone-menu img {
+        margin: 0;
+        width: 50px;
+        height: 50px;
+    }
+
+    .chat-menu {
+        margin-right: 150px;
+    }
+
+    .icone-message {
+        display: flex;
+        width: 40px;
+        height: 40px;
+
+    }
+
+    .container {
+        display: flex;
+        align-items: flex-start;
+        padding: 10px;
+        /* Adicione espaçamento interno */
+    }
+
+    .container-menu {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        justify-content: space-between;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    .search-box {
+        display: flex;
+        align-items: center;
+        border: 1px solid white;
+        border-radius: 5px;
+        padding: 5px;
+        margin: 10px;
+    }
+
+    input {
+        flex: 1;
+        border: none;
+        outline: none;
+        background-color: #6959CD;
+        color: white;
+        /* Defina a cor do texto */
+    }
+
+    ::placeholder {
+        color: white;
+    }
+
+    button {
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+
+    .lupa {
+        width: 25px;
+        height: 25px;
+    }
+
+    .musics {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .music {
+        flex: 0 0 calc(50% - 10px);
+        /* Dois elementos por linha com espaçamento entre eles */
+        padding: 5px;
+        text-align: center;
+    }
+
+    .music img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .music p {
+        font-family: 'Arbutus', cursive;
+        color: aliceblue;
+        margin-top: 5px;
+    }
+
+    .generos {
+        padding: 16px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .quadrado p {
+        font-family: 'Arbutus', cursive;
+        text-align: center;
+    }
+
+    .quadrado {
+        width: 100px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 16px;
+    }
+
+    .ouvir,
+    .alta {
+        font-family: 'Arbutus', cursive;
+        color: black;
+        font-size: 30px;
+        margin-left: 8px;
+    }
+
+    .ouviragora{
+        display: flex;
+        align-items: center;
+    }
+
+    .usuario-container {
+        display: inline-block;
+        position: relative;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: white;
+        margin: 6px;
+    }
+
+    .usuario {
+        width: 40px;
+        height: 40px;
+        object-fit: contain;
+        border-radius: 50%;
+    }
+
+    .ouvir {
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 10px;
+    }
+}
